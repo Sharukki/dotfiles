@@ -35,7 +35,7 @@ dunst &
 picom --config ~/.config/picom/picom.conf &
 
 ## Background
-feh --bg-fill ~/.config/backgrounds/umbrella.png &
+#feh --bg-fill ~/.config/backgrounds/umbrella.png &
 
 ## Keybinding daemon
 sxhkd &
@@ -45,11 +45,11 @@ sxhkd &
 # tint2 &
 
 ## Clipmemu start
-clipmenud &
+#clipmenud &
 
 ## apps for systray if enabled
 # volumeicon &
 # nm-applet &
 
 #Scratchpads
-bspc rule -a scpad sticky=on state=floating rectangle=1200x800+450+100
+#bspc rule -a scpad sticky=on state=floating rectangle=1200x800+450+100
